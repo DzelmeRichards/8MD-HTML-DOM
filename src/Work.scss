@@ -1,0 +1,88 @@
+.body {
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.container {
+    margin:50px;
+    padding: 50px;
+}
+
+.Button {
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    margin-right: 27px;
+    color: white;
+    border: 2px solid white;
+    transition: .3s;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: #1FC2AE;
+    margin-bottom: 30px;
+}
+
+.Button__1{
+    background-color: #017187;
+    border-color: #017187;
+    &:active {
+        background-color: red;
+    }
+}
+
+.Button__2{
+    background-color: #5C0187;
+    border-color: #5C0187;
+    &:active {
+        background-color: red;
+    }
+}
+
+.Button__3{
+    background-color: #871101;
+    border-color: #871101;
+    &:active {
+        background-color: red;
+    }
+}
+
+.Button__4{
+    background-color: #01870E;
+    border-color: #01870E;
+    &:active {
+        background-color: red;
+    }
+}
+
+.Button__5{
+    background-color: #E2CF22;
+    border-color: #E2CF22;
+    &:active {
+        background-color: red;
+    }
+}
+
+.Button__6{
+    background-color: #011E87;
+    border-color: #011E87;
+    &:active {
+        background-color: red;
+    }
+}
+
+.Button__7{
+    background-color: #18D5E1;
+    border-color: #18D5E1;
+    &:active {
+        background-color: red;
+    }
+}
