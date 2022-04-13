@@ -10,46 +10,54 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <button class="Button Button__1">Button 1</button>
-                <button class="Button Button__2">Button 2</button>
-                <button class="Button Button__3">Button 3</button>
-                <button class="Button Button__4">Button 4</button>
-                <button class="Button Button__5">Button 5</button>
-                <button class="Button Button__6">Button 6</button>
+    <section>
+        <div class="container">
+            <div class="row between-xs">
+                <div class="col-xs-12">
+                    <div>
+                        <button class="Button Button__1 js-button__1">Button 1</button>
+                        <button class="Button Button__2 js-button__2">Button 2</button>
+                        <button class="Button Button__3 js-button__3">Button 3</button>
+                        <button class="Button Button__4 js-button__4">Button 4</button>
+                        <button class="Button Button__5 js-button__5">Button 5</button>
+                        <button class="Button Button__6 js-button__6">Button 6</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-4">
-                <div class="box"></div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="box box__1 js-box js-box__1"></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="box box__2 js-box js-box__2">FAIL</div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="box box__3 js-box js-box__3"></div>
+                </div>
             </div>
-            <div class="col-xs-4">
-                <div class="box"></div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="box box__4 js-box js-box__4"></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="box box__5 js-box js-box__5">0</div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="box box__6 js-box js-box__6">0</div>
+                </div>
             </div>
-            <div class="col-xs-4">
-                <div class="box"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-4">
-                <div class="box"></div>
-            </div>
-            <div class="col-xs-4">
-                <div class="box"></div>
-            </div>
-            <div class="col-xs-4">
-                <div class="box"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-4">
-                <button class="Button Button__7">Button 7</button>
-                <form action="">
-                    <input type="text">
-                    
-                </form>
+            <div class="row">
+                <div class="col-xs-4">
+                    <button class="Button Button__7 js-button__7">Button 7</button>
+                    <div class="input">
+                        <form action="">
+                            <input class="js-input" type="text">
+                            <br><br>
+                            <span class="output js-output"></span>
+
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
